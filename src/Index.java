@@ -1,11 +1,11 @@
 public class Index {
     public static void main(String[] args) {
         BmService bmService = new BmService();
-        int bodyweight;
-        bodyweight = 58;
-        float bodyheight = 1.65f;
+        int bodyWeight;
+        bodyWeight = 58;
+        float bodyHeight = 1.65f;
 
-        float bmIndex = bmService.calculate(bodyweight, bodyheight);
+        float bmIndex = bmService.calculate(bodyWeight, bodyHeight);
         System.out.println(bmIndex);
 
     }
